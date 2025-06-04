@@ -1,0 +1,57 @@
+@page "/calc"
+
+<h3>電卓</h3>
+
+<div class="calculator">
+    <div class="display">@currentInput</div>
+
+    <div class="button-grid">
+        @foreach (var row in buttonRows)
+        {
+            <div class="row">
+                @foreach (var btn in row)
+                {
+                    <button @onclick="() => OnButtonClick(btn)" class="calc-btn">@btn</button>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private string currentInput = "";
+
+    private List<List<string>> buttonRows = new()
+    {
+        new() { "7", "8", "9", "/" },
+        new() { "4", "5", "6", "*" },
+        new() { "1", "2", "3", "-" },
+        new() { "0", ".", "=", "+" },
+        new() { "C" }
+    };
+
+    private void OnButtonClick(string button)
+    {
+        // 入力ロジック（次のステップで処理詳細を追加予定）
+        if (button == "C")
+        {
+            currentInput = "";
+        }
+        else if (button == "=")
+        {
+            try
+            {
+                var result = new System.Data.DataTable().Compute(currentInput, null);
+                currentInput = result.ToString();
+            }
+            catch
+            {
+                currentInput = "Error";
+            }
+        }
+        else
+        {
+            currentInput += button;
+        }
+    }
+}
