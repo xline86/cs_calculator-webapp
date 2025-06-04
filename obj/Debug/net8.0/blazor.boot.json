@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "cs_calculator-webapp",
   "resources": {
-    "hash": "sha256-Qc30zx8C+32toP42IHdrkpmCl9GVGImQmmO34Y7E76Q=",
+    "hash": "sha256-bcA6409JTmZd1jBhv+pYNMDW13RYHuHuy+LcCq2mZhQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.14.g84mqer5kf.js": "sha256-DTUQS6Jc6BNnS7sYYezFfaUKVmQq0/lanhQuJfygH/k="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-8L4O6tiH48gEZfzf0Y84J01S+3eEG59Bo5bfpH2H+9Y=",
       "netstandard.wasm": "sha256-sEvS/ZjfGhf1dLglmk72ysM50loOygjujJ/J5OhFLEw=",
       "System.Private.CoreLib.wasm": "sha256-BhHYDTpkph+YJOQuAlv6aSrvjTVX0WLTIDBXecinFXo=",
-      "cs_calculator-webapp.wasm": "sha256-jAe5ZVfViENy98Zmw48wjXyJSTWF42r5N58Wv3WiYwo="
+      "cs_calculator-webapp.wasm": "sha256-B+N0ghc16I5yEG2ey4V9gNflNiKc37StW9wju35HzTw="
     },
     "pdb": {
-      "cs_calculator-webapp.pdb": "sha256-cuZn79y57lbsmndJ6UL1+zunG0ZFIq4Lh7yYZ/+i4bY="
+      "cs_calculator-webapp.pdb": "sha256-bbRPKj97Rk7Zh2olQYGbYbcOayoP1458BUlnP99qp/s="
     }
   },
   "cacheBootResources": true,

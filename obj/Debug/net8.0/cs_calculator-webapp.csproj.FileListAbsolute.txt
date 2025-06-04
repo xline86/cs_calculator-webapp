@@ -1029,3 +1029,4 @@ C:\Users\roa86\Documents\roa_local\workspace\git\cs_study\cs_calculator-webapp\o
 C:\Users\roa86\Documents\roa_local\workspace\git\cs_study\cs_calculator-webapp\obj\Debug\net8.0\refint\cs_calculator-webapp.dll
 C:\Users\roa86\Documents\roa_local\workspace\git\cs_study\cs_calculator-webapp\obj\Debug\net8.0\cs_calculator-webapp.pdb
 C:\Users\roa86\Documents\roa_local\workspace\git\cs_study\cs_calculator-webapp\obj\Debug\net8.0\ref\cs_calculator-webapp.dll
+C:\Users\roa86\Documents\roa_local\workspace\git\cs_study\cs_calculator-webapp\obj\Debug\net8.0\cs_calculator-webapp.sourcelink.json
